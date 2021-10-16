@@ -1,6 +1,7 @@
 # Activity Name: Solution
 
 This file would ONLY exist for tutorial activities.
+The README file for challenge activities is to be located in the corresponding folder in the private repository.
 
 Description of vulnerability
 
