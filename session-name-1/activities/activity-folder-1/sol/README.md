@@ -1,6 +1,6 @@
 # Activity Name: Solution
 
-This file would ONLY exist for Tutorial-like activities.
+This file would ONLY exist for tutorial activities.
 
 Description of vulnerability
 
