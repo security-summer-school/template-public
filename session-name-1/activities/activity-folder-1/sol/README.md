@@ -1,5 +1,7 @@
 # Activity Name: Solution
 
+This file would ONLY exist for Tutorial-like activities.
+
 Description of vulnerability
 
 Insight on the solution
