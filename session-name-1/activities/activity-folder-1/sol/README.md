@@ -1,17 +1,8 @@
-# Name: Web/Binary: Session Name: Challenge Name
+# Activity Name: Solution
 
-## Description
+Description of vulnerability
 
-Get the flag from [url]http://...:.../[/url].
+Insight on the solution
 
-Score: TODO
-
-## Vulnerability
-
-TODO
-
-## Exploit
-
-TODO: detailed solution steps, with code snippets or printscreens when required.
-
-Script in `solution.sh`/`solution.py`
+Detailing of the solution, with references to solution files.
+Mention if there is a certain environment where the solution is to be run.
