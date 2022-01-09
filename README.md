@@ -26,7 +26,7 @@ Activities come in two forms:
 
 ## Support
 
-In case you have questions or want to know more about a topic, use the the `Discussions` tab or join the [SSS Discord community](https://discord.gg/qx3RmNEVkB).
+In case you have questions or want to know more about a topic, use the `Discussions` tab or join the [SSS Discord community](https://discord.gg/qx3RmNEVkB).
 
 ## Sessions
 
@@ -49,7 +49,7 @@ A session folder consists of:
 
 An activity folder consists of:
 
-* `public/`: support file for the activity: binary files, helper scripts, packet captures etc.
+* `public/`: support files for the activity: binary files, helper scripts, packet captures etc.
 * `sol/`: the reference solution of the activity.
   Tutorial activities feature a `README.md` file in the solution folder, with a detailing of the solution.
 
