@@ -7,4 +7,4 @@ You may contribute by:
 * taking part in discussions: https://github.com/security-summer-school/TODO-track-name/discussions
 * creating pull requests to update the content: https://github.com/security-summer-school/TODO-track-name//pulls
 
-Before you make any contribution, make sure it follows the [community's rules](https://github.com/security-summer-school/meta/blob/master/docs/contributing.md).
+Before you make any contribution, make sure it follows the [community guide](https://github.com/security-summer-school/meta/blob/master/docs/contributing.md).
