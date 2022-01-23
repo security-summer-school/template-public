@@ -24,3 +24,6 @@
 
 # Ignore GDB files.
 .gdb_history
+
+# Ignore _site/ output folders (for reveal-md).
+_site/
