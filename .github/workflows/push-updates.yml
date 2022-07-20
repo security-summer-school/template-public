@@ -1,0 +1,29 @@
+# name: Sync parent repo with submodule
+
+# on:
+#   push:
+#     branches:
+#       - master
+
+# jobs:
+#   update:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - uses: actions/checkout@v2
+#         with: 
+#           repository: security-summer-school/security-summer-school.github.io
+#           token: ${{ secrets.<TRACK>_PRIVATE_TOKEN }}
+
+#       - name: Pull and update submodule recursively
+#         run: |
+#           git submodule update --init --recursive
+#           git submodule update --remote --recursive -- content/en/<TRACK>/
+
+#       - name: Commit
+#         run: |
+#           git config user.email "<TRACK>-updater@github.com"
+#           git config user.name "<TRACK> Track Updater"
+#           git add content/en/<TRACK>/
+#           git commit -m "<TRACK>: Update track submodule" || echo "No changes to commit"
+#           git push
