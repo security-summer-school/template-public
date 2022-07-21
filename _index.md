@@ -42,8 +42,8 @@ A session folder consists of:
 
 * `index.md`: session contents, written in [GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
 * `activities/`: each activity has its own folder with support files (including the reference solution)
-* `assets/`: support files for session contents (images, diagrams, code snippets, packet captures, etc.)
-* `slides/`: session slides
+* `assets/`: support files for session contents (images, diagrams, code snippets, demos, packet captures, etc.)
+* `slides/`: Markdown file used to generate the session slides.
 
 ### Activity Folder Structure
 
@@ -51,7 +51,6 @@ An activity folder consists of:
 
 * `README.md`: details the challenge name, challenge description, points, hints, vulnerability overview, solution overview.
 * `flag` (optional): contains the flag string.
-  Some activities may not have a flag, making it optional.
 * `public/`: stores public files that are to be packed in an archive that is to be made available to participants.
   They are usually generated from the `src/` folder, though they may also be static files.
 * `sol/`: the reference solution of the activity.

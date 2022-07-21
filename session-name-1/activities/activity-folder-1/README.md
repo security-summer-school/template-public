@@ -14,4 +14,4 @@ TODO
 
 TODO
 
-Script in `./sol/solution.sh`
+Exploit in `./sol/solution.sh`.
