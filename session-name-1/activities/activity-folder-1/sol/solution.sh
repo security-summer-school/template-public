@@ -18,3 +18,9 @@ then
 else
     url="$1"':'"$2"
 fi
+
+# Activity Name
+echo "Start exploit"
+url=$url
+flag=$(curl -s $url)
+echo "Flag is $flag"
