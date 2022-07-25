@@ -20,8 +20,8 @@ Each activity will develop your practical skills and help you get a better under
 
 Activities come in two forms:
 
-* **tutorials**: that provide a step-by-step detailing of the solution.
-* **challenges**: that only state the goal and provide an initial skeleton (and maybe some hints), then the rest is up to you.
+- **tutorials**: that provide a step-by-step detailing of the solution.
+- **challenges**: that only state the goal and provide an initial scaffolding (and maybe some hints), then the rest is up to you.
   Even so, challenge activity folders store the reference solution for you to take a sneak peak in case you're lost.
 
 ## Support
@@ -32,46 +32,46 @@ In case you have questions or want to know more about a topic, use the `Discussi
 
 The sessions of the SSS **TODO-track-name** track are:
 
-* [Session 01: Name](session-name-1/index.md)
-* TODO
-* TODO
+- [Session 01: Name](session-name-1/index.md)
+- TODO
+- TODO
 
 ### Session Folder Structure
 
 A session folder consists of:
 
-* `index.md`: session contents, written in [GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
-* `activities/`: each activity has its own folder with support files (including the reference solution)
-* `assets/`: support files for session contents (images, diagrams, code snippets, demos, packet captures, etc.)
-* `slides/`: Markdown file used to generate the session slides.
+- `index.md`: session contents, written in [GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
+- `activities/`: each activity has its own folder with support files (including the reference solution)
+- `assets/`: support files for session contents (images, diagrams, code snippets, demos, packet captures, etc.)
+- `slides/`: Markdown file used to generate the session slides.
 
 ### Activity Folder Structure
 
 An activity folder consists of:
 
-* `README.md`: details the challenge name, challenge description, points, hints, vulnerability overview, solution overview.
-* `flag` (optional): contains the flag string.
-* `public/`: stores public files that are to be packed in an archive that is to be made available to participants.
+- `README.md`: details the challenge name, challenge description, points, hints, vulnerability overview, solution overview.
+- `flag` (optional): contains the flag string.
+- `public/`: stores public files that are to be packed in an archive that is to be made available to participants.
   They are usually generated from the `src/` folder, though they may also be static files.
-* `sol/`: the reference solution of the activity.
-* `src/` (optional): stores similar contents to a CTF challenge.
+- `sol/`: the reference solution of the activity.
+- `src/` (optional): stores similar contents to a CTF challenge.
   The generated files that are to be made available to participants will be stored in the `public/` folder in the corresponding activity folder in the public repository.
   Most activities require a source code folder, but some may not, making the `src/` folder optional.
-* `deploy/` (optional): stores similar contents to a CTF challenge.
+- `deploy/` (optional): stores similar contents to a CTF challenge.
   Most activities require remote deployment in a Docker container, but some may not, making the `deploy` folder optional.
 
   It typically consists of the following files:
 
-  * `Dockerfile`: for creating the Docker container that will run the challenge on the remote system.
-  * `docker-compose.yml`: for configuring the Docker containers
-  * `Makefile`: the building and running of Docker containers.
-  This file should include `common/activity.mk` in most cases, but if a challenge has a different structure it can implement its own Makefile.
-  * `run.sh` (when required): Docker startup script, used to start services.
+  - `Dockerfile`: for creating the Docker container that will run the challenge on the remote system.
+  - `docker-compose.yml`: for configuring the Docker containers
+  - `Makefile`: the building and running of Docker containers.
+    This file should include `common/activity.mk` in most cases, but if a challenge has a different structure it can implement its own Makefile.
+  - `run.sh` (when required): Docker startup script, used to start services.
     It's used inside the `Dockerfile` with `COPY + CMD` commands.
-  * Additional files required for the deployment.
+  - Additional files required for the deployment.
     They may be static files or files generated from the `src/` folder.
 
-The `session-name-1/activities/activity-folder-1/` folder contains skeleton contents of an activity folder:
+The `session-name-1/activities/activity-folder-1/` folder contains scaffolding contents of an activity folder:
 
 ```
 |-- deploy/
@@ -87,7 +87,6 @@ The `session-name-1/activities/activity-folder-1/` folder contains skeleton cont
 `-- src/
     `-- index.template.php
 ```
-
 
 ## Contributing
 
