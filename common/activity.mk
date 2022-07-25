@@ -16,7 +16,7 @@ stop:
 	docker stop $(CONT_NAME)
 
 clean: stop
-	docker rm $(IMG_NAME)
+	docker rm $(CONT_NAME)
 	docker image rm $(IMG_NAME):latest
 	rm $(FILE_SRC)
 
