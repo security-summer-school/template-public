@@ -4,7 +4,8 @@ import requests
 PORT = 8001
 
 if len(sys.argv) == 1:
-    print("Please provide at least one argument, \"local\" or \"remote\" depending on where you want to run the solution.")
+    print(f"Usage: {sys.argv[0]} {local,remote}\nor")
+    print(f"Usage: {sys.argv[0]} <ip> <port>")
     exit(1)
 
 if len(sys.argv) > 1 and sys.argv[1] == 'local':
@@ -15,4 +16,4 @@ else:
     HOST = sys.argv[1]
     PORT = int(sys.argv[2])
 
-res = requests.get('http://%s:%d' % (HOST, PORT))
+res = requests.get(f"http://{HOST}:{PORT}")
