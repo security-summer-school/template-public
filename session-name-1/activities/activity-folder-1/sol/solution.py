@@ -5,7 +5,6 @@ PORT = 8001
 
 if len(sys.argv) == 1:
     print("Please provide at least one argument, \"local\" or \"remote\" depending on where you want to run the solution.")
-    print("To run the solution for a different server, you can put sys.argv[1] = IP, sys.argv[2] = PORT.")
     exit(1)
 
 if len(sys.argv) > 1 and sys.argv[1] == 'local':
