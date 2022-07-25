@@ -1,3 +1,9 @@
+---
+linkTitle: 01. Session name
+type: docs
+weight: 10
+---
+
 # Session Name
 
 ## Introduction
