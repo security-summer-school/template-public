@@ -1,4 +1,8 @@
-# Reviewing a Modified / Newly Added Session
+# SSS Reviewer Guidelines
+
+These are recommendations for reviewing contributions to SSS repositories.
+Reviewing is important to ensure high quality and consistency of content.
+As a reviewer, we trust you will vet contributions and provide constructive suggestions to update them to fit the SSS guidelines.
 
 ## Activities / Challenges
 
@@ -15,21 +19,23 @@ Check if all of them are used and mentioned in the content.
 If the assets are not original, make sure their license is compatible to [ours](./COPYING.md) and that their source is properly cited.
 Verify that their names are appropriate and respect the following rules:
 
-- Use dash between words(e.g. `image-name.png`).
-- Use only word characters.
+- Use dash between words (e.g. `image-name.png`).
+- Use only lowercase ASCII characters.
 
 ## Content
 
 Make sure that the content is of good quality:
 
-- Follow the general structure of a [session](session-name-1/README.md).
+- It follows the general structure of a [session](session-name-1/README.md).
 - Assets are displayed well.
-- The content should have at most one sentence per line.
+- The content has at most one sentence per line.
 - The content is easy to understand.
+- Wording and general spelling are correct.
+- Proper formatting is used (such as bold, italic, typewritter formats).
 
 ## Working on Pull Requests
 
-You will review contributions as pull requests.
+You will review contributions as pull requests, following the [PR review guidelines from GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
 Contributions must follow the [contributing guidelines](CONTRIBUTING.md).
 
 Add your review as comments and request for changes to the PR until everything is ready to be approved.
