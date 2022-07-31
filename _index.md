@@ -53,7 +53,7 @@ An activity folder consists of:
 - `flag` (optional): contains the flag string.
 - `public/`: stores public files that are to be packed in an archive that is to be made available to participants.
   They are usually generated from the `src/` folder, though they may also be static files.
-- `sol/`: the reference solution of the activity.
+- `sol/`: holds the reference solution of the activity.
 - `src/` (optional): stores similar contents to a CTF challenge.
   The generated files that are to be made available to participants will be stored in the `public/` folder in the corresponding activity folder in the public repository.
   Most activities require a source code folder, but some may not, making the `src/` folder optional.
@@ -62,7 +62,7 @@ An activity folder consists of:
 
   It typically consists of the following files:
 
-  - `Dockerfile`: for creating the Docker container that will run the challenge on the remote system.
+  - `Dockerfile`: for creating the Docker container that will run the challenge on the remote system
   - `docker-compose.yml`: for configuring the Docker containers
   - `Makefile`: the building and running of Docker containers.
     This file should include `common/activity.mk` in most cases, but if a challenge has a different structure it can implement its own Makefile.
