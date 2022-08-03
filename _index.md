@@ -50,7 +50,7 @@ A session folder consists of:
 An activity folder consists of:
 
 - `README.md`: details the challenge name, challenge description, points, hints, vulnerability overview, solution overview.
-- `flag` (optional): contains the flag string.
+- `flag`: contains the flag string.
 - `public/`: stores public files that are to be packed in an archive that is to be made available to participants.
   They are usually generated from the `src/` folder, though they may also be static files.
 - `sol/`: holds the reference solution of the activity.
