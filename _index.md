@@ -59,12 +59,11 @@ An activity folder consists of:
   Most activities require a source code folder, but some may not, making the `src/` folder optional.
 - `deploy/` (optional): stores similar contents to a CTF challenge.
   Most activities require remote deployment in a Docker container, but some may not, making the `deploy` folder optional.
-
   It typically consists of the following files:
 
   - `Dockerfile`: for creating the Docker container that will run the challenge on the remote system
   - `docker-compose.yml`: for configuring the Docker containers
-  - `Makefile`: the building and running of Docker containers.
+  - `Makefile`: for building and running Docker containers.
     This file should include `common/activity.mk` in most cases, but if a challenge has a different structure it can implement its own Makefile.
     For the general Makefile we have the following commands:
     - `make run`: start the Docker container
