@@ -13,7 +13,6 @@ Ideally you would go through the sessions orderly, but you can jump ahead to a t
 Each session has its own folder.
 The `index.md` file from a session folder details the topic of the session and includes practical demos of tools and snippets of code.
 
-After reading the session contents, jump to the hands-on activities.
 A typical activity will challenge you to solve / exploit a given issue and obtain a flag.
 Read the activity description in the session contents and then use the activity support file to get to a solution.
 Each activity will develop your practical skills and help you get a better understanding of the session topics.
