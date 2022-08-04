@@ -42,7 +42,8 @@ A session folder consists of:
 - `index.md`: session contents, written in [GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
 - `activities/`: each activity has its own folder with support files (including the reference solution)
 - `assets/`: support files for session contents (images, diagrams, code snippets, demos, packet captures, etc.)
-- `slides/`: Markdown file used to generate the session slides.
+- `slides/`: support files for session slides presentation.
+  It should include a `Makefile` that uses `common/slides.mk` and generates slides using [reveal-md](https://github.com/webpro/reveal-md).
 
 ### Activity Folder Structure
 
