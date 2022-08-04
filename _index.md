@@ -60,16 +60,17 @@ An activity folder consists of:
   Most activities require remote deployment in a Docker container, but some may not, making the `deploy` folder optional.
   It typically consists of the following files:
 
-  - `Dockerfile`: for creating the Docker container that will run the challenge on the remote system
-  - `docker-compose.yml`: for configuring the Docker containers
+  - `Dockerfile`: for creating the Docker container that will run the challenge on the remote system.
+  - `docker-compose.yml`: for configuring the Docker containers.
+  - `.dockerignore`: for [excluding](https://docs.docker.com/engine/reference/builder/#dockerignore-file) some files from the Docker container.
   - `Makefile`: for building and running Docker containers.
     This file should include `common/activity.mk` in most cases, but if a challenge has a different structure it can implement its own Makefile.
     For the general Makefile we have the following commands:
-    - `make run`: start the Docker container
-    - `make build`: build the Docker image
-    - `make generate`: generate the file with the flag from `../flag`
-    - `make stop`: stop the container
-    - `make clean`: remove the image, the container and the generated file
+    - `make run`: start the Docker container.
+    - `make build`: build the Docker image.
+    - `make generate`: generate the file with the flag from `../flag`.
+    - `make stop`: stop the container.
+    - `make clean`: remove the image, the container and the generated file.
   - `run.sh` (when required): Docker startup script, used to start services.
     It's used inside the `Dockerfile` with `COPY + CMD` commands.
   - Additional files required for the deployment.
