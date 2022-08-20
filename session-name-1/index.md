@@ -1,3 +1,9 @@
+---
+linkTitle: 01. Session name
+type: docs
+weight: 10
+---
+
 # Session Name
 
 ## Introduction
@@ -31,6 +37,10 @@ summary of commands / snippets that are useful for tutorials, challenges (for ea
 ## Further Reading
 
 References to articles, books, chapters, blog posts etc. for additional reading
+
+- Further reading 1
+- Further reading 2
+- Further reading 3
 
 ## Activities
 
