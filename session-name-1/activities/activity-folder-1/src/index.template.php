@@ -1,3 +1,3 @@
 <?php
-	echo '__TEMPLATE__';
-?>
+
+  echo '__TEMPLATE__';

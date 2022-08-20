@@ -79,7 +79,7 @@ An activity folder consists of:
 
 The `session-name-1/activities/activity-folder-1/` folder contains scaffolding contents of an activity folder:
 
-```
+```markdown
 |-- deploy/
 |   |-- .dockerignore
 |   |-- docker-compose.yml

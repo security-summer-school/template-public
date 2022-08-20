@@ -1,5 +1,5 @@
-import sys
 import requests
+import sys
 
 PORT = 8001
 

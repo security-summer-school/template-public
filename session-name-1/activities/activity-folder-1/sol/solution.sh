@@ -21,6 +21,5 @@ fi
 
 # Activity Name
 echo "Start exploit"
-url=$url
-flag=$(curl -s $url)
+flag=$(curl -s "$url")
 echo "Flag is $flag"
