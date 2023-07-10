@@ -89,7 +89,7 @@ The `session-name-1/activities/activity-folder-1/` folder contains scaffolding c
 |-- flag
 |-- README.md
 |-- sol/
-|   `-- README.md
+|   `-- solution.sh
 `-- src/
     `-- index.template.php
 ```
